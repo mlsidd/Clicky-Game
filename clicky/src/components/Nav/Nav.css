@@ -1,0 +1,18 @@
+.nav {
+    background-color: rgb(91, 54, 126);
+}
+
+.nav-item {
+    color: white;
+    font-size: 30px;
+}
+
+.nav-link {
+    color: white;
+}
+
+#navCenterTitle, #score {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
