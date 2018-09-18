@@ -1,14 +1,12 @@
 import React from "react";
-import "./imageCard.css";
+import "./NavMessage.css";
 
 // Card should know what image to display, whether or not it is currently clicked, and whether or not is has
 // already been clicked in current game
-const ImageCard = props => (
+const NavMessage = props => (
   <div className="card">
-    <div className="img-container">
-      <img alt={props.name} src={props.image} />
-    </div>
+       <a className="nav-link disabled" id="navCenterTitle" href="#">Click on an image</a>
   </div>
 );
 
-export default ImageCard;
+export default NavMessage;
